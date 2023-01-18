@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-bg: hsl(276, 100%, 81%);
+    --chat-ui1: hsl(271, 15%, 43%);
+    --chat-ui: hsl(276, 55%, 52%);
+}
+
+html {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: var(--chat-ui) */
+}
+
+p {
+    margin: 0;
+}
+
+.main-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.phone-component,
+.phone-container {
+    border: 1px solid black;
+}
+
+header,
+.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .8rem;
+}
+
+/* USER IMAGE. */
+.avatar {
+    height: 40px;
+    padding: .1rem;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.avatar img {
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+/* THE CHAT BODY */
+main {
+    background: grey;
+    padding: 1rem;
+}
+
+.chat-body {
+    display: grid;
+    gap: .7rem;
+}
+
+.chat-container {
+    background: white;
+    padding: .5rem;
+}
+
+.pic-container {
+    display: flex;
+}
+
+/* THE MESSAGE BODY */
+
+
+/*  */

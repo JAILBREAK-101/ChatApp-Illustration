@@ -1,5 +1,18 @@
+// THE WHOLE PAGE.
+@import './root.scss';
+@import './component.scss';
+@import './main.scss';
 
+body {
+    background-color: mixin-exists($name: mixin1);
+}
 
 // FOOTER.
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
